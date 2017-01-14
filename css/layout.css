@@ -56,7 +56,7 @@ table {
   float: left;
 }
 .image-left {
-  background-image: image_url("background.jpg");
+  background-image: url("https://enfop.github.io/betonpage/assets/background.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%
 }
@@ -73,7 +73,6 @@ a {
   color: rgba(22,22,22,0.7);
   text-decoration: none; /* no underline */
   &:hover {
-    
   }
 }
 h2 {
