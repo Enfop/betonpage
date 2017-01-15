@@ -53,7 +53,7 @@ table {
   border-spacing: 0;
 }
 
-.image-left, .content{
+.image-left, .index, .content{
   width: 50%;
   height: 100%;
   float: left;
@@ -65,17 +65,32 @@ table {
   background-position: 0% 45%;
 
 }
+.index {
+  margin: 0 auto;
+  padding-top: 36vh;
+  padding-left: calc(15vw - 50px);
+  box-sizing: border-box;
+}
 .content {
   margin: 0 auto;
-  padding-top: calc(50vh - 128px);
-  padding-left: calc(25vw - 170px);
+  padding-top: 10vh;
+  padding-left: 6vw;
+  padding-right: 6vw;
   box-sizing: border-box;
+  font-size: 16px;
+  line-height: 20px;
 }
 li {
   margin-top: 0.8vh;
   font-size: 4vh;
   list-style-type: none;
   color: rgba(22,22,22,0.65);
+}
+.content li {
+  font-size: 16px;
+}
+.content li:last-child {
+  margin-bottom: 0.8vh;
 }
 li:before{
   content: "-";
@@ -84,11 +99,26 @@ li:before{
 a {
   color: rgba(22,22,22,0.7);
   text-decoration: none; /* no underline */
-
-  &:hover {
-  }
 }
+a:hover {
+    color: rgba(200,2,2, 0.95);
+  }
 h2 {
   font-size: 5vh;
   margin-bottom: 1.4vh;
+  line-height: 2vh;
+}
+h2 a {
+  line-height: 30px;
+  font-size: 5vh;
+  margin-bottom: 1.4vh;
+  display: inline-block;
+  color: rgba(22,22,22,0.85);
+}
+.content h2 {
+  margin-bottom: 2.8vh;
+}
+h3{
+  margin: 1.4vh 0;
+  color: rgba(22,22,22,0.85);
 }
