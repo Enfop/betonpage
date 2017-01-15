@@ -31,11 +31,14 @@ footer, header, hgroup, menu, nav, section {
 body, html {
   line-height: 1;
   height: 100%;
-  width: 1005;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(22,22,22,0.85);
+  text-shadow: 1px 1px rgba(22,22,22,0.15);
 }
 ol, ul {
   list-style-type: dash;
-  padding-left: 1vw;
+  padding-left: 0.2vw;
 }
 blockquote, q {
   quotes: none;
@@ -58,23 +61,34 @@ table {
 .image-left {
   background-image: url("https://enfop.github.io/betonpage/assets/background.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%
+  background-size: 100%;
+  background-position: 0% 45%;
+
 }
 .content {
   margin: 0 auto;
-  padding-top: 10vh;
-  padding-left: 5vw;
+  padding-top: calc(50vh - 90px);
+  padding-left: calc(25vw - 150px);
   box-sizing: border-box;
 }
 li {
   margin-top: 0.8vh;
+  font-size: 20px;
+  list-style-type: none;
+  color: rgba(22,22,22,0.65);
+}
+li:before{
+  content: "-";
+  padding-right: 0.5vw;
 }
 a {
   color: rgba(22,22,22,0.7);
   text-decoration: none; /* no underline */
+
   &:hover {
   }
 }
 h2 {
-  font-size: 28px;
+  font-size: 32px;
+  margin-bottom: 1.4vh;
 }
