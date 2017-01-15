@@ -67,13 +67,13 @@ table {
 }
 .content {
   margin: 0 auto;
-  padding-top: calc(50vh - 90px);
-  padding-left: calc(25vw - 150px);
+  padding-top: calc(50vh - 128px);
+  padding-left: calc(25vw - 170px);
   box-sizing: border-box;
 }
 li {
   margin-top: 0.8vh;
-  font-size: 20px;
+  font-size: 4vh;
   list-style-type: none;
   color: rgba(22,22,22,0.65);
 }
@@ -89,6 +89,6 @@ a {
   }
 }
 h2 {
-  font-size: 32px;
+  font-size: 5vh;
   margin-bottom: 1.4vh;
 }
