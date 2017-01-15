@@ -113,7 +113,12 @@ h2 a {
   font-size: 5vh;
   margin-bottom: 1.4vh;
   display: inline-block;
-  color: rgba(22,22,22,0.85);
+  padding-bottom: 8px;
+  color: rgba(200,2,2, 0.95);
+  border-bottom: solid 2px rgba(22,22,22,0.55);
+}
+h2 a:hover {
+  color: rgba(22,22,22,0.7);
 }
 .content h2 {
   margin-bottom: 2.8vh;
