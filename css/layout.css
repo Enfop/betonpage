@@ -88,13 +88,16 @@ li {
 }
 .content li {
   font-size: 16px;
+  padding-left: 12px;
+  position: relative;
 }
 .content li:last-child {
   margin-bottom: 0.8vh;
 }
 li:before{
   content: "-";
-  padding-right: 0.5vw;
+  left: 0;
+  position: absolute;
 }
 a {
   color: rgba(22,22,22,0.7);
