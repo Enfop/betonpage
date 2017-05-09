@@ -56,7 +56,7 @@ table {
 .image-left, .index, .content{
   width: 50%;
   height: 100%;
-  float: left;
+  position: fixed;
 }
 .image-left {
   background-image: url("https://enfop.github.io/betonpage/assets/background.jpg");
@@ -72,7 +72,7 @@ table {
   box-sizing: border-box;
 }
 .content {
-  margin: 0 auto;
+  margin-left: 50%;
   padding-top: 10vh;
   padding-left: 6vw;
   padding-right: 6vw;
