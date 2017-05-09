@@ -130,3 +130,13 @@ h3{
 .bold {
   font-weight: bold;
 }
+div.footer {
+  color: rgba(22,22,22,0.7);
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  width: 50%;
+  font-size: 4vh;
+  text-shadow: 1px 1px rgba(22,22,22,0.15);
+  text-align: center;
+}
