@@ -56,14 +56,13 @@ table {
 .image-left, .index, .content{
   width: 50%;
   height: 100%;
-  position: fixed;
 }
 .image-left {
   background-image: url("https://enfop.github.io/betonpage/assets/background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0% 45%;
-
+  position: fixed;
 }
 .index {
   margin: 0 auto;
