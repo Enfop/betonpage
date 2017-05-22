@@ -65,7 +65,7 @@ table {
   position: fixed;
 }
 .index {
-  margin: 0 auto;
+  margin-left:50%;
   padding-top: 36vh;
   padding-left: calc(15vw - 50px);
   box-sizing: border-box;
